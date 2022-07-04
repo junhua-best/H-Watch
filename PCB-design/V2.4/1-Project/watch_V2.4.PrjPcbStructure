@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=01-MCU-V2.4.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=01-MCU-V2.4.SchDoc|FileName=02-bluetooth-V2.4.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=01-MCU-V2.4.SchDoc|FileName=03-PeripheralPart-V2.4.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=01-MCU-V2.4.SchDoc|FileName=04-POWERV2.4.SchDoc|SheetNumber= 
