@@ -1,0 +1,123 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 junhuaa, 2, LIC=W96CK-ZVMSA-AWG2F-6Q050-FH8E3-E98MV
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.36.0.0
+Toolchain Path:  D:\360Downloads\Software\MDK5_536\MDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\作业文档\毕业设计_智能手表\裸跑版参考\裸跑新版本\我写的\实际手表版本\手表版本\MDK-ARM\TEST3.uvprojx
+Project File Date:  07/04/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\360Downloads\Software\MDK5_536\MDK\ARM\ARMCC\Bin'
+Build target 'TEST3'
+compiling taskFun.c...
+..\PROGRAM\TASKS\taskfun.h(221): warning:  #1295-D: Deprecated declaration display_test_task - give arg types
+  void display_test_task(); //测试任务
+..\GUI_APP\DisplayPrivate.h(77): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\GUI_APP\time_setting_page.h(20): warning:  #1295-D: Deprecated declaration app_setting_update_time - give arg types
+  void app_setting_update_time();
+..\GUI_APP\time_setting_page.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\GUI_APP\about_page.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\GUI_APP\light_setting_page.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\GUI_APP\stopwatch_page.h(4): warning:  #1295-D: Deprecated declaration LmeterSec_Create - give arg types
+  void LmeterSec_Create();
+..\GUI_APP\stopwatch_page.h(6): warning:  #1295-D: Deprecated declaration SW_Reset - give arg types
+  void SW_Reset();
+..\GUI_APP\stopwatch_page.h(7): warning:  #1295-D: Deprecated declaration SW_Record - give arg types
+  void SW_Record();
+..\GUI_APP\stopwatch_page.h(8): warning:  #1295-D: Deprecated declaration SW_RecordUpdate - give arg types
+  void SW_RecordUpdate();
+..\GUI_APP\stopwatch_page.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\GUI_APP\watch_page.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\PROGRAM\KEY\key.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\GUI_APP\guitest.h(9): warning:  #1295-D: Deprecated declaration lv_gauge_test_start - give arg types
+  void lv_gauge_test_start();
+..\GUI_APP\guitest.h(12): warning:  #1295-D: Deprecated declaration lv_gauge_test_start2 - give arg types
+  void lv_gauge_test_start2();
+..\GUI_APP\guitest.h(17): warning:  #1295-D: Deprecated declaration lv_page_test_start3 - give arg types
+  	void lv_page_test_start3();
+..\GUI_APP\guitest.h(19): warning:  #1295-D: Deprecated declaration key_handler - give arg types
+  	void key_handler();
+..\GUI_APP\guitest.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\GUI_APP\gui_display.h(55): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\GUI_APP\memo_page.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\GUI_APP\DisplayPrivate.h(62): warning:  #1295-D: Deprecated declaration AppWindow_Create - give arg types
+  void AppWindow_Create();
+..\GUI_APP\DisplayPrivate.h(64): warning:  #1295-D: Deprecated declaration AppWindow_GetHeight - give arg types
+  lv_coord_t AppWindow_GetHeight();
+..\GUI_APP\DisplayPrivate.h(65): warning:  #1295-D: Deprecated declaration AppWindow_GetWidth - give arg types
+  lv_coord_t AppWindow_GetWidth();
+..\GUI_APP\DisplayPrivate.h(71): warning:  #1295-D: Deprecated declaration Setup_Menu - give arg types
+   void Setup_Menu();
+..\GUI_APP\DisplayPrivate.h(73): warning:  #1295-D: Deprecated declaration Get_Pageid - give arg types
+  uint8_t Get_Pageid();
+..\GUI_APP\DisplayPrivate.h(77): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\PROGRAM\TASKS\taskFun.c(270): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return toPercentage(((ADC_Value_BATTERY+0.2)*2)*1000);
+..\PROGRAM\TASKS\taskFun.c(359): warning:  #177-D: variable "sAlarm"  was declared but never referenced
+      RTC_AlarmTypeDef sAlarm = {0};
+..\PROGRAM\TASKS\taskFun.c(1361): warning:  #177-D: variable "i"  was declared but never referenced
+      unsigned char i =0;
+..\PROGRAM\TASKS\taskFun.c(1391): warning:  #177-D: variable "i"  was declared but never referenced
+      unsigned char i =0;
+..\PROGRAM\TASKS\taskFun.c(1393): warning:  #177-D: variable "words_buffer_reve"  was declared but never referenced
+      unsigned char words_buffer_reve[40] = {0};
+..\PROGRAM\TASKS\taskFun.c: 31 warnings, 0 errors
+linking...
+Program Size: Code=108696 RO-data=106032 RW-data=7536 ZI-data=50320  
+FromELF: creating hex file...
+"TEST3\TEST3.axf" - 0 Error(s), 31 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L4xx_DFP.2.6.0.pack
+                Keil.STM32L4xx_DFP.2.6.0
+                STMicroelectronics STM32L4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_TEST3
+  D:\360Downloads\Software\MDK5_536\MDK\pack\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  D:\360Downloads\Software\MDK5_536\MDK\pack\Keil\STM32L4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

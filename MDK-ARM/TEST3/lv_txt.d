@@ -1,0 +1,15 @@
+test3\lv_txt.o: ..\GUI\lvgl\src\lv_misc\lv_txt.c
+test3\lv_txt.o: ..\GUI\lvgl\src\lv_misc\lv_txt.h
+test3\lv_txt.o: ..\GUI\lvgl\src\lv_misc\../../../lv_conf.h
+test3\lv_txt.o: D:\360Downloads\Software\MDK5_536\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+test3\lv_txt.o: ..\GUI\lvgl\src\lv_misc\../../../lvgl/src/lv_conf_checker.h
+test3\lv_txt.o: D:\360Downloads\Software\MDK5_536\MDK\ARM\ARMCC\Bin\..\include\stdbool.h
+test3\lv_txt.o: ..\GUI\lvgl\src\lv_misc\lv_area.h
+test3\lv_txt.o: D:\360Downloads\Software\MDK5_536\MDK\ARM\ARMCC\Bin\..\include\string.h
+test3\lv_txt.o: ..\GUI\lvgl\src\lv_misc\../../../lv_conf.h
+test3\lv_txt.o: ..\GUI\lvgl\src\lv_misc\../lv_font/lv_font.h
+test3\lv_txt.o: ..\GUI\lvgl\src\lv_misc\../lv_font/../../../lv_conf.h
+test3\lv_txt.o: D:\360Downloads\Software\MDK5_536\MDK\ARM\ARMCC\Bin\..\include\stddef.h
+test3\lv_txt.o: ..\GUI\lvgl\src\lv_misc\../lv_font/lv_symbol_def.h
+test3\lv_txt.o: ..\GUI\lvgl\src\lv_misc\../lv_font/../../../lv_conf.h
+test3\lv_txt.o: ..\GUI\lvgl\src\lv_misc\lv_math.h

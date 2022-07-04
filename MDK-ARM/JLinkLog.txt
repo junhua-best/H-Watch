@@ -1,0 +1,148 @@
+T0858 2871:602.805   SEGGER J-Link V7.22b Log File
+T0858 2871:602.896   DLL Compiled: Jun 17 2021 17:22:49
+T0858 2871:602.915   Logging started @ 2022-04-03 05:01
+T0858 2871:602.923 - 5545.613ms
+T0858 2871:602.936 JLINK_SetWarnOutHandler(...)
+T0858 2871:602.944 - 0.011ms
+T0858 2871:602.954 JLINK_OpenEx(...)
+T0858 2871:604.287   Firmware: J-Link OB-STM32F072-CortexM compiled Jan  7 2019 14:09:37
+T0858 2871:604.671   Firmware: J-Link OB-STM32F072-CortexM compiled Jan  7 2019 14:09:37
+T0858 2871:604.904   Decompressing FW timestamp took 204 us
+T0858 2871:610.018   Hardware: V1.00
+T0858 2871:610.070   S/N: 4294967295
+T0858 2871:610.086   OEM: SEGGER
+T0858 2871:610.102   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+T0858 2871:611.495   TELNET listener socket opened on port 19021
+T0858 2871:617.738   Device "CORTEX-M3" selected.
+T0858 2871:621.083   WEBSRV Starting webserver
+T0858 2871:621.745   WEBSRV Webserver running on local port 19080
+T0858 2871:621.793 - 18.845ms returns "O.K."
+T0858 2871:621.839 JLINK_GetEmuCaps()
+T0858 2871:621.866 - 0.036ms returns 0xB8EA5A33
+T0858 2871:621.889 JLINK_TIF_GetAvailable(...)
+T0858 2871:622.163 - 0.294ms
+T0858 2871:622.205 JLINK_SetErrorOutHandler(...)
+T0858 2871:622.217 - 0.016ms
+T0858 2871:622.681 JLINK_ExecCommand("ProjectFile = "D:\作业文档\毕业设计_智能手表\裸跑版参考\裸跑新版本\我写的\实际手表版本\手表版本\MDK-ARM\JLinkSettings.ini"", ...). 
+T0858 2871:623.404   Device "CORTEX-M3" selected.
+T0858 2871:623.853 - 1.184ms returns 0x00
+T0858 2871:623.906 JLINK_ExecCommand("Device = STM32L431CCUx", ...). 
+T0858 2871:624.526   Device "STM32L431CC" selected.
+T0858 2871:625.219 - 1.319ms returns 0x00
+T0858 2871:625.290 JLINK_GetHardwareVersion()
+T0858 2871:625.313 - 0.030ms returns 10000
+T0858 2871:625.330 JLINK_GetDLLVersion()
+T0858 2871:625.341 - 0.016ms returns 72202
+T0858 2871:625.355 JLINK_GetOEMString(...)
+T0858 2871:625.376 JLINK_GetFirmwareString(...)
+T0858 2871:625.389 - 0.018ms
+T0858 2871:625.468 JLINK_GetDLLVersion()
+T0858 2871:625.487 - 0.026ms returns 72202
+T0858 2871:625.507 JLINK_GetCompileDateTime()
+T0858 2871:625.521 - 0.019ms
+T0858 2871:625.557 JLINK_GetFirmwareString(...)
+T0858 2871:625.570 - 0.021ms
+T0858 2871:625.598 JLINK_GetHardwareVersion()
+T0858 2871:625.610 - 0.017ms returns 10000
+T0858 2871:625.635 JLINK_GetSN()
+T0858 2871:625.653 - 0.024ms returns -1
+T0858 2871:625.668 JLINK_GetOEMString(...)
+T0858 2871:625.715 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T0858 2871:626.431 - 0.732ms returns 0x00
+T0858 2871:626.459 JLINK_HasError()
+T0858 2871:626.473 JLINK_SetSpeed(5000)
+T0858 2871:626.557 - 0.100ms
+T0858 2871:627.043 JLINK_HasError()
+T0858 2871:627.064 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T0858 2871:627.074 - 0.014ms returns JLINKARM_RESET_TYPE_NORMAL
+T0858 2871:627.086 JLINK_Reset()
+T0858 2871:628.302   Found SW-DP with ID 0x2BA01477
+T0858 2872:147.845   
+  ***** Error: 
+T0858 2872:147.875   STM32 (connect): Error while checking CPU state.
+T0858 2872:147.939   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T0858 2872:199.478   Found SW-DP with ID 0x2BA01477
+T0858 2872:770.235   
+  ***** Error: 
+T0858 2872:770.264   STM32 (connect): Error while checking CPU state.
+T0858 2872:770.278   
+  ***** Error: 
+T0858 2872:770.290   STM32: Connecting to CPU via connect under reset failed.
+T0858 2872:872.276   Found SW-DP with ID 0x2BA01477
+T0858 2873:389.111   
+  ***** Error: 
+T0858 2873:389.141   STM32 (connect): Error while checking CPU state.
+T0858 2873:389.179   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T0858 2873:441.201   Found SW-DP with ID 0x2BA01477
+T0858 2874:013.205   
+  ***** Error: 
+T0858 2874:013.233   STM32 (connect): Error while checking CPU state.
+T0858 2874:013.246   
+  ***** Error: 
+T0858 2874:013.258   STM32: Connecting to CPU via connect under reset failed.
+T0858 2874:064.778 - 2437.710ms
+T0858 2874:065.289 JLINK_GetId()
+T0858 2874:066.381   Found SW-DP with ID 0x2BA01477
+T0858 2874:582.428   
+  ***** Error: 
+T0858 2874:582.465   STM32 (connect): Error while checking CPU state.
+T0858 2874:582.584   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T0858 2874:634.055   Found SW-DP with ID 0x2BA01477
+T0858 2875:204.860   
+  ***** Error: 
+T0858 2875:204.887   STM32 (connect): Error while checking CPU state.
+T0858 2875:204.899   
+  ***** Error: 
+T0858 2875:204.910   STM32: Connecting to CPU via connect under reset failed.
+T0858 2875:306.023   Found SW-DP with ID 0x2BA01477
+T0858 2875:824.054   
+  ***** Error: 
+T0858 2875:824.108   STM32 (connect): Error while checking CPU state.
+T0858 2875:824.166   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T0858 2875:875.658   Found SW-DP with ID 0x2BA01477
+T0858 2876:447.237   
+  ***** Error: 
+T0858 2876:447.267   STM32 (connect): Error while checking CPU state.
+T0858 2876:447.280   
+  ***** Error: 
+T0858 2876:447.292   STM32: Connecting to CPU via connect under reset failed.
+T0858 2876:499.114 - 2433.843ms returns 0x00000000
+T0858 2876:499.528 JLINK_GetId()
+T0858 2876:500.499   Found SW-DP with ID 0x2BA01477
+T0858 2877:017.578   
+  ***** Error: 
+T0858 2877:017.607   STM32 (connect): Error while checking CPU state.
+T0858 2877:017.648   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T0858 2877:069.474   Found SW-DP with ID 0x2BA01477
+T0858 2877:639.959   
+  ***** Error: 
+T0858 2877:639.989   STM32 (connect): Error while checking CPU state.
+T0858 2877:640.002   
+  ***** Error: 
+T0858 2877:640.015   STM32: Connecting to CPU via connect under reset failed.
+T0858 2877:741.582   Found SW-DP with ID 0x2BA01477
+T0858 2878:257.920   
+  ***** Error: 
+T0858 2878:257.950   STM32 (connect): Error while checking CPU state.
+T0858 2878:257.988   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T0858 2878:309.111   Found SW-DP with ID 0x2BA01477
+T0858 2878:880.718   
+  ***** Error: 
+T0858 2878:880.748   STM32 (connect): Error while checking CPU state.
+T0858 2878:880.760   
+  ***** Error: 
+T0858 2878:880.772   STM32: Connecting to CPU via connect under reset failed.
+T0858 2878:932.676 - 2433.167ms returns 0x00000000
+T0858 2878:935.449 JLINK_GetFirmwareString(...)
+T0858 2878:935.474 - 0.028ms
+T70C8 2881:575.877 Looking for J-Link GUI Server exe at: D:\360Downloads\Software\MDK5_536\MDK\ARM\Segger\JLinkGUIServer.exe
+T70C8 2881:575.987 Looking for J-Link GUI Server exe at: D:\正点原子学习\minifly\【11】MiniFly光盘资料\3，MiniFly配套软件\JLink_V512g\\JLinkGUIServer.exe
+T70C8 2881:877.932 Failed to connect to J-Link GUI Server.
+T4A18 2915:676.593   
+  ***** Error: Connection to emulator lost!
+T4A18 2953:999.779   
+  ***** Error: Connection to emulator lost!
+T0858 3192:813.188 JLINK_Close()
+T0858 3192:831.869 - 18.707ms
+T0858 3192:831.904   
+T0858 3192:831.915   Closed
